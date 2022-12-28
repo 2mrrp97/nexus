@@ -7,6 +7,13 @@
   <version>1.0.0</version>
   <packaging>kjar</packaging>
   <name>nexus</name>
+  
+  <distributionManagement>
+    <repository>
+        <id>jbpm-test</id>
+        <url>http://localhost:8081/repository/jbpm-test/</url>
+    </repository>
+</distributionManagement>
   <description></description>
   <dependencies>
     <dependency>
