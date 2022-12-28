@@ -3,9 +3,33 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>jbpm-test</id>
+        <url>http://localhost:8081/repository/jbpm-test/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
+        <url>https://testkie.jfrog.io/artifactory/libs-release</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>C:\Users\subhrosen/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>snapshots</id>
+        <url>https://testkie.jfrog.io/artifactory/libs-snapshot</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
   </repositories>
